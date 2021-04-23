@@ -1,0 +1,161 @@
+/*    aca coloco todos mis estilos    */  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.estiloBody {
+    font-family: 'Roboto', sans-serif;
+    background-color: aquamarine;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*  temporales */
+    
+}
+
+/*    estilos de contenedores    */   
+
+.contenedor40 {
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.contenedor80 {
+    width: 80%;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+/*    estilos del Header    */  
+
+.estiloHeader {
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    padding: 20px;
+    margin-top: 25px;
+    border-bottom: 5px solid #ff8000;
+
+    display: flex;
+    justify-content: space-between;
+
+    /*  temporales */
+   
+    
+}
+
+.estiloUl {
+    display: flex;
+}
+
+.estiloLi {
+    list-style: none;
+    background-color:blue;
+    margin: 0 20px 0 20px;
+    padding: 5px 15px 5px 15px;
+
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.estiloLi:hover {
+    background-color: #ff8000;
+}
+
+.estiloLink {
+    text-decoration: none;
+    color: white;
+}
+/*    estilos del Main    */  
+
+.estiloMain {
+
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /*  temporales */
+      
+}
+
+.estiloH1 {
+    font-size: larger;
+    font-weight: 400;
+    margin: 30px 0 30px 0;
+}
+
+.estiloSeccion {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    
+    justify-content: space-around;
+}
+
+.contenedorImgPrincipal {
+    
+
+    width: 40%;
+    padding: 10px;
+
+    border-radius: 15px;
+    border: 1px solid #000000;
+
+}
+
+
+
+
+.imgPrincipal {
+    width: 100%;
+}
+
+.contenedorTxtPrincipal {
+   
+    width: 100%;
+}
+
+/*    estilos del footer    */ 
+
+.estiloFooter {
+
+    background-color: gray;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+
+    /*  temporales */
+  
+    
+}
+
+.estiloGitHub {
+    display: flex;
+    align-items: center;
+}
+.imgIco {
+    width: 35px;
+    margin-right: 25px;
+}
+
+.estiloTxtSmall {
+    font-size: small;
+    font-weight: 500;
+}
+
+.estiloH3 {
+    font-size: small;
+    font-weight: 400;
+}
